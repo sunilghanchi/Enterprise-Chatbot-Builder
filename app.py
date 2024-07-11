@@ -38,7 +38,7 @@ def display_chat_message(role, content):
         st.write(f"AI: {content}")
 
 def main():
-    st.title("AI-Prompting Project")
+    st.title("Enterprise Chatbot Builder Project")
     
     if 'bot' not in st.session_state:
         st.session_state.bot = None
