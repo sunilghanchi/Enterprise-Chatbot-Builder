@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 
 # Initialize OpenAI client
-client = OpenAI(api_key="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", base_url="https://api.groq.com/openai/v1")
+client = OpenAI(api_key="token", base_url="https://api.groq.com/openai/v1")
 
 def prompt_refining_model(user_input):
     response = client.chat.completions.create(
